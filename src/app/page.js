@@ -1,9 +1,11 @@
-import Image from "next/image";
+import AddTodo from "@/components/AddTodo";
+import "./globals.css";
+
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-4xl text-center text-green-400">this is Todo  List App</h1>
+    <div className="">
+      <AddTodo />
     </div>
   );
 }
