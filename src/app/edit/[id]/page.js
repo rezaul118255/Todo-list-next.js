@@ -46,10 +46,11 @@ const page = ({ params }) => {
 
     useEffect(() => {
         let todos = localStorage.getItem("todos")
+        console.log(todos)
         if (todos) {
             let todosJson = JSON.parse(todos)
             let ftodo = todosJson.filter(e => title == e.title)
-            // console.log(ftodo)
+            console.log(ftodo)
             if (ftodo.length > 0) {
 
                 setTodo(ftodo[0])
@@ -92,3 +93,10 @@ const page = ({ params }) => {
 };
 
 export default page;
+
+
+
+
+
+
+

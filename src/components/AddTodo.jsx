@@ -36,7 +36,7 @@ const Home = () => {
                 <section class="text-gray-600 body-font">
                     <div class="px-5 py-24  flex flex-wrap items-center mx-auto">
 
-                        <div class=" mx-auto  bg-gray-100 rounded-lg p-8 flex items-center w-[70%]  flex-col   mt-10 md:mt-0  ">
+                        <div class=" mx-auto  bg-gray-100 rounded-lg p-8 flex items-center flex-col   mt-10 md:mt-0  ">
                             <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Add a Todo</h2>
                             <div class="relative mb-4">
                                 <label for="title" class="leading-7 text-sm text-gray-600">Todo Title</label>
